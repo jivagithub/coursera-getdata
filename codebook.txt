@@ -1,0 +1,445 @@
+activity
+	character string
+		Describes the subject's activity at the time of measurement
+			WALKING
+			WALKING_UPSTAIRS
+			WALKING_DOWNSTAIRS
+			SITTING
+			STANDING
+			LAYING				
+
+subject
+	number
+		Identifyer for the indivudual whose activity is being measured
+			01...30
+
+avg_tBodyAcc.mean...X
+	floating number
+		Measurement of the average (mean) body acceleration along the X-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAcc.mean...Y 
+	floating number
+		Measurement of the average (mean)  body acceleration along the Y-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAcc.mean...Z
+	floating number
+		Measurement of the average (mean)  body acceleration along the Z-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tGravityAcc.mean...X
+	floating number
+		Measurement of the average (mean) gravity acceleration along the X-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tGravityAcc.mean...Y 
+	floating number
+		Measurement of the average (mean) gravity acceleration along the Y-axis (time domain) 
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tGravityAcc.mean...Z
+	floating number
+		Measurement of the average (mean) gravity acceleration along the Z-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAccJerk.mean...X 
+	floating number
+		Measurement of the average (mean) body acceleration jerk along the X-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAccJerk.mean...Y 
+	floating number
+		Measurement of the average (mean) body acceleration jerk along the Y-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAccJerk.mean...Z
+	floating number
+		Measurement of the average (mean) body acceleration jerk along the Z-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyro.mean...X
+	floating number
+		Measurement of the average (mean) body gyroscope along the X-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyro.mean...Y
+	floating number
+		Measurement of the average (mean) body gyroscope along the Y-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyro.mean...Z
+	floating number
+		Measurement of the average (mean) body gyroscope along the Z-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyroJerk.mean...X 
+	floating number
+		Measurement of the average (mean) body gyroscopic jerk along the X-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyroJerk.mean...Y
+	floating number
+		Measurement of the average (mean) body gyroscopic jerk along the Y-axis  (time domain)
+			+/- 0.00000000000001...0.99999999999999 
+
+avg_tBodyGyroJerk.mean...Z
+	floating number
+		Measurement of the average (mean) body gyroscopic jerk along the Z-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAccMag.mean..
+	floating number
+		Measurement of the average (mean) body acceleration magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tGravityAccMag.mean..
+	floating number
+		Measurement of the average (mean) gravity acceleration magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAccJerkMag.mean..
+	floating number
+		Measurement of the average (mean) body acceleration jerk magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyroMag.mean..
+	floating number
+		Measurement of the average (mean) body gyroscopic magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyroJerkMag.mean..
+	floating number
+		Measurement of the average (mean) body gyroscopic jerk magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAcc.mean...X
+	floating number
+		Measurement of the average (mean) body acceleration along the X-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAcc.mean...Y
+	floating number
+		Measurement of the average (mean) body acceleration along the Y-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAcc.mean...Z
+	floating number
+		Measurement of the average (mean) body acceleration along the Z-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAcc.meanFreq...X
+	floating number
+		Measurement of the average (mean) body acceleration along the X-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAcc.meanFreq...Y
+	floating number
+		Measurement of the average (mean)  body acceleration along the Y-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAcc.meanFreq...Z
+	floating number
+		Measurement of the average (mean)  body acceleration along the Z-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccJerk.mean...X
+	floating number
+		Measurement of the average (mean) body accelaration jerk along the X-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccJerk.mean...Y
+	floating number
+		Measurement of the average (mean) body accelaration jerk along the Y-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccJerk.mean...Z
+	floating number
+		Measurement of the average (mean) body accelaration jerk along the Z-axis (frequency domain) 
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccJerk.meanFreq...X
+	floating number
+		Measurement of the average (mean)  body accelaration jerk along the X-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccJerk.meanFreq...Y
+	floating number
+		Measurement of the average (mean)  body accelaration jerk along the Y-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccJerk.meanFreq...Z
+	floating number
+		Measurement of the average (mean)  body accelaration jerk along the Z-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyGyro.mean...X
+	floating number
+		Measurement of the average (mean) body gyroscopic along the X-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyGyro.mean...Y
+	floating number
+		Measurement of the average (mean) body gyroscopic along the Y-axis (frequency domain) 
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyGyro.mean...Z
+	floating number
+		Measurement of the average (mean) body gyroscopic along the Z-axis (frequency domain) 
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyGyro.meanFreq...X
+	floating number
+		Measurement of the average (mean) body gyroscopic along the X-axis (frequency domain) 
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyGyro.meanFreq...Y
+	floating number
+		Measurement of the average (mean) body gyroscopic along the Y-axis (frequency domain) 
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyGyro.meanFreq...Z
+	floating number
+		Measurement of the average (mean) body gyroscopic along the Z-axis (frequency domain) 
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccMag.mean..
+	floating number
+		Measurement of the average (mean) body acceleration magnitude (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccMag.meanFreq..
+	floating number
+		Measurement of the average (mean) body acceleration magnitude (frequency domain) 
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyBodyAccJerkMag.mean..
+	floating number
+		Measurement of the average (mean) body acceleration jerk magnitude (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyBodyAccJerkMag.meanFreq..
+	floating number
+		Measurement of the average (mean)  body acceleration jerk magnitude (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyBodyGyroMag.mean..
+	floating number
+		Measurement of the average (mean) body gyroscopic magnitude (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyBodyGyroMag.meanFreq..
+	floating number
+		Measurement of the average (mean) body gyroscopic magnitude (frequency domain) 
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyBodyGyroJerkMag.mean..
+	floating number
+		Measurement of the average (mean)  body gyroscopic jerk magnitude (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyBodyGyroJerkMag.meanFreq..
+	floating number
+		Measurement of the average (mean)  body gyroscopic jerk magnitude (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_angle.tBodyAccMean.gravity.
+	floating number
+		Measurement of the average (mean) angle of body acceleration (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_angle.tBodyAccJerkMean..gravityMean.
+	floating number
+		Measurement of the average (mean) angle of body acceleration jerk magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_angle.tBodyGyroMean.gravityMean.
+	floating number
+		Measurement of the average (mean) angle of body gyroscopic gravity (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_angle.tBodyGyroJerkMean.gravityMean.
+	floating number
+		Measurement of the average (mean) angle of body gyroscopic jerk gravity (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_angle.X.gravityMean.
+	floating number
+		Measurement of the average (mean) angle of gravity on the X-axis
+			+/- 0.00000000000001...0.99999999999999
+
+avg_angle.Y.gravityMean.
+	floating number
+		Measurement of the average (mean) angle of gravity on the Y-axis
+			+/- 0.00000000000001...0.99999999999999
+
+avg_angle.Z.gravityMean.
+	floating number
+		Measurement of the average (mean) angle of gravity on the Z-axis
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAcc.std...X
+	floating number
+		Measurement of the average standard deviation body acceleration on the X-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAcc.std...Y
+	floating number
+		Measurement of the average standard deviation body acceleration on the Y-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAcc.std...Z
+	floating number
+		Measurement of the average standard deviation body acceleration on the Z-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tGravityAcc.std...X
+	floating number
+		Measurement of the average standard deviation gravity acceleration on the X-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tGravityAcc.std...Y
+	floating number
+		Measurement of the average standard deviation gravity acceleration on the Y-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tGravityAcc.std...Z
+	floating number
+		Measurement of the average standard deviation gravity acceleration on the Z-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAccJerk.std...X
+	floating number
+		Measurement of the average standard deviation body acceleration jerk on the X-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAccJerk.std...Y
+	floating number
+		Measurement of the average standard deviation body acceleration jerk on the Y-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAccJerk.std...Z
+	floating number
+		Measurement of the average standard deviation body acceleration jerk on the Z-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyro.std...X
+	floating number
+		Measurement of the average standard deviation body gyroscopic on the X-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyro.std...Y
+	floating number
+		Measurement of the average standard deviation body gyroscopic on the Y-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyro.std...Z
+	floating number
+		Measurement of the average standard deviation body gyroscopic on the Z-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyroJerk.std...X
+	floating number
+		Measurement of the average standard deviation body gyroscopic jerk on the X-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyroJerk.std...Y
+	floating number
+		Measurement of the average standard deviation body gyroscopic jerk on the Y-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyroJerk.std...Z
+	floating number
+		Measurement of the average standard deviation body gyroscopic jerk on the Z-axis (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAccMag.std..
+	floating number
+		Measurement of the average standard deviation body acceleration magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tGravityAccMag.std..
+	floating number
+		Measurement of the average standard deviation gravity acceleration magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyAccJerkMag.std..
+	floating number
+		Measurement of the average standard deviation body acceleration jerk magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyroMag.std..
+	floating number
+		Measurement of the average standard deviation body gyroscopic magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_tBodyGyroJerkMag.std..
+	floating number
+		Measurement of the average standard deviation body gyroscopic jerk magnitude (time domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAcc.std...X
+	floating number
+		Measurement of the average standard deviation body acceleration on the X-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAcc.std...Y
+	floating number
+		Measurement of the average standard deviation body acceleration on the Y-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAcc.std...Z
+	floating number
+		Measurement of the average standard deviation body acceleration on the Z-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccJerk.std...X
+	floating number
+		Measurement of the average standard deviation body acceleration jerk on the X-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccJerk.std...Y
+	floating number
+		Measurement of the average standard deviation body acceleration jerk on the Y-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccJerk.std...Z
+	floating number
+		Measurement of the average standard deviation body acceleration jerk on the Z-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyGyro.std...X
+	floating number
+		Measurement of the average standard deviation body gyroscopic on the X-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyGyro.std...Y
+	floating number
+		Measurement of the average standard deviation body gyroscopic on the Y-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyGyro.std...Z
+	floating number
+		Measurement of the average standard deviation body gyroscopic on the Z-axis (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyAccMag.std..
+	floating number
+		Measurement of the average standard deviation body acceleration magnitude (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyBodyAccJerkMag.std..
+	floating number
+		Measurement of the average standard deviation body acceleration jerk magnitude (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyBodyGyroMag.std..
+	floating number
+		Measurement of the average standard deviation body gyroscopic magnitude (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
+avg_fBodyBodyGyroJerkMag.std..
+	floating number
+		Measurement of the average standard deviation body gyroscopic jerk magnitude (frequency domain)
+			+/- 0.00000000000001...0.99999999999999
+
